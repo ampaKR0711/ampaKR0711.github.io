@@ -1,7 +1,7 @@
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "contrast" # High contrast looks very professional
+minimal_mistakes_skin: "contrast"
 
-# Site Details
+# Site Settings
 title: "Ampa Ranjan"
 url: "https://ampaKR0711.github.io"
 locale: "en-US"
@@ -19,7 +19,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ampaKR0711"
 
-# Force the sidebar to show
+# Layout Defaults
 defaults:
   - scope:
       path: ""
