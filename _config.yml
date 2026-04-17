@@ -1,17 +1,14 @@
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "air" # You can change this to "dark", "contrast", or "aqua" later!
+minimal_mistakes_skin: "contrast" # High contrast looks very professional
 
-# Site Settings
+# Site Details
 title: "Ampa Ranjan"
-name: "Ampa Ranjan"
-description: "B.Tech CSE @ KIIT | BS Data Science @ IIT Madras"
 url: "https://ampaKR0711.github.io"
 locale: "en-US"
 
-# Author Settings
+# Sidebar Info
 author:
   name: "Ampa Ranjan"
-  avatar: "/assets/images/bio-photo.jpg" # We will upload this later
   bio: "3rd Year CSE @ KIIT | IIT Madras BS Candidate | AI Researcher"
   location: "Bhubaneswar, India"
   links:
@@ -22,17 +19,10 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ampaKR0711"
 
-# Defaults for Layouts
+# Force the sidebar to show
 defaults:
   - scope:
       path: ""
-      type: posts
     values:
-      layout: single
-      author_profile: true
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
+      layout: "single"
       author_profile: true
