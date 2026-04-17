@@ -1,12 +1,18 @@
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "air" # You can change this to "dark", "contrast", or "aqua" later!
+
 # Site Settings
 title: "Ampa Ranjan"
+name: "Ampa Ranjan"
 description: "B.Tech CSE @ KIIT | BS Data Science @ IIT Madras"
-url: "https://ampakr0711.github.io"
+url: "https://ampaKR0711.github.io"
+locale: "en-US"
 
 # Author Settings
 author:
   name: "Ampa Ranjan"
-  bio: "3rd Year CSE Student at KIIT University and Data Science Candidate at IIT Madras. Focused on Agentic AI and Financial Data Engineering."
+  avatar: "/assets/images/bio-photo.jpg" # We will upload this later
+  bio: "3rd Year CSE @ KIIT | IIT Madras BS Candidate | AI Researcher"
   location: "Bhubaneswar, India"
   links:
     - label: "LinkedIn"
@@ -15,3 +21,18 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ampaKR0711"
+
+# Defaults for Layouts
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
